@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>عيادة النجم التخصصية | Star Clinic - طب الأسنان في اليمن</title>
+  <meta name="description" content="عيادة النجم التخصصية - ابتسامة صحية بثقة وجودة عالية. أحدث خدمات طب الأسنان في صنعاء"/>
+  
+  <!-- الخط العربي -->
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet"/>
+  
+  <!-- أيقونات -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  
+  <!-- ملف التنسيق -->
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- الهيدر -->
+  <header class="header">
+    <div class="container header-content">
+      <div class="logo">
+        <!-- ✅ ضع شعارك هنا -->
+        <img src="/images/logo.png" alt="شعار عيادة النجم" class="logo-img"/>
+      </div>
+      
+      <nav class="nav" id="navMenu">
+        <a href="#home">الرئيسية</a>
+        <a href="#services">خدماتنا</a>
+        <a href="#about">من نحن</a>
+        <a href="#gallery">معرض الصور</a>
+        <a href="#contact">تواصل معنا</a>
+      </nav>
+      
+      <div class="header-actions">
+        <a href="tel:+967774645494" class="btn btn-primary">
+          <i class="fas fa-phone"></i> احجز الآن
+        </a>
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- السلايدر المتحرك -->
+  <section id="home" class="slider-section">
+    <div class="slider-container">
+      <div class="slider" id="slider">        <!-- 📸 الصور المتحركة - أضف صورك هنا -->
+        <div class="slide active">
+          <img src="/images/slide1.jpg" alt="عيادة النجم - خدمة متميزة"/>
+          <div class="slide-content">
+            <h1>✨ عيادة النجم التخصصية</h1>
+            <p>ابتسامة صحية.. بثقة وجودة عالية</p>
+            <a href="#contact" class="btn btn-slider">احجز موعدك الآن</a>
+          </div>
+        </div>
+        
+        <div class="slide">
+          <img src="/images/slide2.jpg" alt="أحدث الأجهزة الطبية"/>
+          <div class="slide-content">
+            <h1>🦷 أحدث التقنيات العالمية</h1>
+            <p>أجهزة متطورة وبيئة معقمة وآمنة</p>
+            <a href="#services" class="btn btn-slider">اكتشف خدماتنا</a>
+          </div>
+        </div>
+        
+        <div class="slide">
+          <img src="/images/slide3.jpg" alt="فريقنا الطبي المتخصص"/>
+          <div class="slide-content">
+            <h1>👨‍⚕️ فريق طبي متخصص</h1>
+            <p>خبرة عالية واهتمام براحة المريض</p>
+            <a href="tel:+967774645494" class="btn btn-slider">اتصل بنا</a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- أزرار التنقل -->
+      <button class="slider-btn prev" id="prevBtn">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+      <button class="slider-btn next" id="nextBtn">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+      
+      <!-- النقاط -->
+      <div class="slider-dots" id="sliderDots"></div>
+    </div>
+  </section>
+
+  <!-- الخدمات -->
+  <section id="services" class="services">
+    <div class="container">
+      <h2 class="section-title">
+        <span class="title-icon">✨</span>
+        خدماتنا المتميزة
+      </h2>
+            <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-tooth"></i>
+          </div>
+          <h3>علاج التسوس</h3>
+          <p>علاج تسوس الأسنان بأحدث التقنيات وبأعلى معايير الجودة</p>
+        </div>
+        
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-magic"></i>
+          </div>
+          <h3>الحشوات التجميلية</h3>
+          <p>حشوات تجميلية عالية الجودة تطابق لون الأسنان الطبيعي</p>
+        </div>
+        
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-procedures"></i>
+          </div>
+          <h3>علاج العصب</h3>
+          <p>علاج العصب بدون ألم باستخدام أحدث الأجهزة والتقنيات</p>
+        </div>
+        
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-hand-holding-medical"></i>
+          </div>
+          <h3>خلع الأسنان</h3>
+          <p>خلع الأسنان بأمان تام وعناية فائقة لضمان راحتك</p>
+        </div>
+        
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-sparkles"></i>
+          </div>
+          <h3>تنظيف وتلميع</h3>
+          <p>تنظيف وتلميع الأسنان لإزالة الترسبات والبقع</p>
+        </div>
+        
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-teeth"></i>
+          </div>
+          <h3>التركيبات</h3>
+          <p>تركيبات ثابتة ومتحركة بأعلى جودة وأفضل المواد</p>
+        </div>
+      </div>
+    </div>  </section>
+
+  <!-- من نحن -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="about-content">
+        <div class="about-text">
+          <h2 class="section-title text-right">
+            <span class="title-icon">⭐</span>
+            لماذا تختار عيادتنا؟
+          </h2>
+          <p class="about-desc">
+            نرحب بكم في عيادة النجم التخصصية، حيث نلتزم بتقديم أفضل خدمات طب الأسنان 
+            باستخدام أحدث الأجهزة والتقنيات العالمية، في بيئة مريحة وآمنة تضمن لكم 
+            تجربة علاجية استثنائية.
+          </p>
+          
+          <div class="features-list">
+            <div class="feature-item">
+              <div class="feature-icon">
+                <i class="fas fa-check-circle"></i>
+              </div>
+              <div class="feature-text">
+                <h4>أجهزة حديثة ومتطورة</h4>
+                <p>نستخدم أحدث المعدات الطبية العالمية</p>
+              </div>
+            </div>
+            
+            <div class="feature-item">
+              <div class="feature-icon">
+                <i class="fas fa-check-circle"></i>
+              </div>
+              <div class="feature-text">
+                <h4>اهتمام براحة المريض</h4>
+                <p>راحتك أولويتنا القصوى</p>
+              </div>
+            </div>
+            
+            <div class="feature-item">
+              <div class="feature-icon">
+                <i class="fas fa-check-circle"></i>
+              </div>
+              <div class="feature-text">
+                <h4>دقة عالية في التشخيص</h4>
+                <p>تشخيص دقيق لعلاج فعال</p>
+              </div>
+            </div>
+            
+            <div class="feature-item">
+              <div class="feature-icon">                <i class="fas fa-check-circle"></i>
+              </div>
+              <div class="feature-text">
+                <h4>بيئة نظيفة ومعقمة</h4>
+                <p>أعلى معايير التعقيم والنظافة</p>
+              </div>
+            </div>
+            
+            <div class="feature-item">
+              <div class="feature-icon">
+                <i class="fas fa-check-circle"></i>
+              </div>
+              <div class="feature-text">
+                <h4>نتائج مضمونة</h4>
+                <p>نضمن لك أفضل النتائج بإذن الله</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="about-image">
+          <img src="/images/about.jpg" alt="عن عيادة النجم"/>
+          <div class="experience-badge">
+            <span class="years">+10</span>
+            <span class="text">سنوات خبرة</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- معرض الصور -->
+  <section id="gallery" class="gallery">
+    <div class="container">
+      <h2 class="section-title">
+        <span class="title-icon">📸</span>
+        معرض العيادة
+      </h2>
+      
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="/images/gallery/clinic1.jpg" alt="صورة من العيادة"/>
+          <div class="gallery-overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+        
+        <div class="gallery-item">
+          <img src="/images/gallery/clinic2.jpg" alt="صورة من العيادة"/>
+          <div class="gallery-overlay">            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+        
+        <div class="gallery-item">
+          <img src="/images/gallery/clinic3.jpg" alt="صورة من العيادة"/>
+          <div class="gallery-overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+        
+        <div class="gallery-item">
+          <img src="/images/gallery/clinic4.jpg" alt="صورة من العيادة"/>
+          <div class="gallery-overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+        
+        <div class="gallery-item">
+          <img src="/images/gallery/clinic5.jpg" alt="صورة من العيادة"/>
+          <div class="gallery-overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+        
+        <div class="gallery-item">
+          <img src="/images/gallery/clinic6.jpg" alt="صورة من العيادة"/>
+          <div class="gallery-overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- تواصل معنا -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">
+        <span class="title-icon">📞</span>
+        تواصل معنا
+      </h2>
+      
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="info-card">
+            <div class="info-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="info-content">              <h3>🌐 موقعنا</h3>
+              <p>صنعاء - سعوان - جولة السيد<br/>أمام المنجدي للحديد</p>
+            </div>
+          </div>
+          
+          <div class="info-card">
+            <div class="info-icon">
+              <i class="fas fa-phone-alt"></i>
+            </div>
+            <div class="info-content">
+              <h3>📞 احجز الآن</h3>
+              <p>
+                <a href="tel:+967774645494">774645494 967+</a><br/>
+                <a href="tel:+967777372030">777372030 967+</a>
+              </p>
+            </div>
+          </div>
+          
+          <div class="info-card">
+            <div class="info-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <div class="info-content">
+              <h3>🕒 ساعات العمل</h3>
+              <p>السبت - الخميس<br/>9:00 صباحاً - 9:00 مساءً</p>
+            </div>
+          </div>
+          
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="فيسبوك">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="واتساب">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="إنستغرام">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+        
+        <form class="contact-form" id="bookingForm">
+          <h3>📝 احجز موعدك الآن</h3>
+          <div class="form-group">
+            <input type="text" id="name" placeholder="الاسم الكامل *" required/>
+          </div>
+          <div class="form-group">
+            <input type="tel" id="phone" placeholder="رقم الهاتف *" required pattern="967[0-9]{9}"/>
+          </div>
+          <div class="form-group">            <select id="service" required>
+              <option value="">اختر الخدمة المطلوبة *</option>
+              <option value="علاج تسوس">علاج تسوس الأسنان</option>
+              <option value="حشوات تجميلية">حشوات تجميلية</option>
+              <option value="علاج عصب">علاج العصب</option>
+              <option value="خلع">خلع الأسنان</option>
+              <option value="تنظيف">تنظيف وتلميع</option>
+              <option value="تركيبات">التركيبات</option>
+              <option value="استشارة">استشارة عامة</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <textarea id="message" placeholder="ملاحظات إضافية (اختياري)" rows="4"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">
+            <i class="fas fa-paper-plane"></i> إرسال طلب الحجز
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- الفوتر -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="/images/logo.png" alt="شعار عيادة النجم"/>
+          <h3>عيادة النجم التخصصية</h3>
+        </div>
+        
+        <div class="footer-links">
+          <h4>روابط سريعة</h4>
+          <ul>
+            <li><a href="#home">الرئيسية</a></li>
+            <li><a href="#services">خدماتنا</a></li>
+            <li><a href="#about">من نحن</a></li>
+            <li><a href="#contact">تواصل معنا</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-contact">
+          <h4>معلومات التواصل</h4>
+          <p><i class="fas fa-map-marker-alt"></i> صنعاء - سعوان - جولة السيد</p>
+          <p><i class="fas fa-phone"></i> 774645494 967+</p>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>© 2026 عيادة النجم التخصصية. جميع الحقوق محفوظة</p>        <p class="made-with">تم التطوير بـ <i class="fas fa-heart"></i> لخدمة مرضانا الكرام</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- زر واتساب العائم -->
+  <a href="https://wa.me/967774645494" class="whatsapp-float" target="_blank" aria-label="تواصل عبر واتساب">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- ملف الجافاسكريبت -->
+  <script src="script.js"></script>
+</body>
+</html>
